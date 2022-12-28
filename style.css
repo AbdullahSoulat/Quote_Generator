@@ -56,15 +56,14 @@
   body {
     background-color: #2b2e2a;
     min-height: 100vh;
-    min-width: 100vw;
   }
 
   header {
-    margin-bottom: 3.5em;
+    margin-bottom: 2em;
   }
 
   .container {
-    margin: 2em;
+    margin: 3em;
   }
 
   .logo {
@@ -120,14 +119,99 @@ span {
 footer {
   position: absolute;
   bottom: 0px;
-  width: 100%;
+  width: 90%;
 }
 
 .github {
   width: 35px;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 686px) {
+    .container {
+      margin: 2em;
+    }
+  
+    h1 {
+      font-size: 3.5rem;
+    }
+  
+    .quote {
+      font-size: 1rem;
+    }
+  
+    header {
+      margin-bottom: 1em;
+    }
+  
+    .github {
+      width: 15px;
+    }
+  
+    .mail {
+      width: 15px;
+    }
+  
+    .e-mail {
+      font-size: 0.8rem;
+    }
+  
+    span {
+      color: #2b2e2a;
+    }
+  
+    footer {
+      position: absolute;
+      bottom: 0px;
+      width: 90%;
+    }
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 2em;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .quote {
+    font-size: 1rem;
+  }
+
+  header {
+    margin-bottom: 1em;
+  }
+
+  .github {
+    width: 15px;
+  }
+
+  .mail {
+    width: 15px;
+  }
+
+  .e-mail {
+    font-size: 0.8rem;
+  }
+
+  span {
+    color: #2b2e2a;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0px;
+    width: 90%;
+  }
+}
+
+/* for iphone 7, iphone se, and iphone se2 */
+@media (max-width: 430px) {
+  .container {
+    margin: 2em;
+  }
+
   h1 {
     font-size: 1.9rem;
   }
@@ -163,3 +247,4 @@ footer {
   }
 
 }
+
