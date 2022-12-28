@@ -116,63 +116,17 @@ span {
     justify-content: space-between;
 }
 
+footer {
+  position: absolute;
+  bottom: 1em;
+  width: 80%;
+}
+
 .github {
   width: 35px;
 }
 
-@media (max-width: 650px) {
-  h1 {
-    font-size: 3.5rem;
-  }
-
-  .quote {
-    font-size: 1.2rem;
-  }
-}
-
-@media (max-width: 575px) {
-  h1 {
-    font-size: 2.8rem;
-  }
-
-  .quote {
-    font-size: 1rem;
-  }
-
-  .h1-container {
-    margin-top: -2.5em;
-    margin-bottom: 2.5em;
-  }
-
-  span {
-    font-size: 0.8rem;
-  }
-  
-  button {
-    padding: 0.25em 1em;
-    margin-top: 1em;
-    margin-bottom: 0em;
-    }
-
-  .e-mail {
-    font-size: 0.75rem;
-  }
-
-  .github {
-    width: 15px;
-  }
-
-  .mail {
-    width: 15px
-  }
-
-  footer {
-    margin-top: 1.5em;
-  }
-}
-
-
-@media (max-width: 480px) {
+@media (max-width: 376px) {
   h1 {
     font-size: 2rem;
   }
@@ -181,164 +135,20 @@ span {
     font-size: 1rem;
   }
 
-  .h1-container {
-    margin-top: -2.5em;
-    margin-bottom: 2.5em;
-  }
-
-  span {
-    font-size: 0.8rem;
-  }
-  
-  button {
-    padding: 0.25em 1em;
-    margin-top: 0em;
-    margin-bottom: 0em;
-    }
-
-  .e-mail {
-    font-size: 0.75rem;
-  }
-
-  .github {
-    width: 15px;
-  }
-
-  .mail {
-    width: 15px
-  }
-
-  footer {
-    margin-top: -1em;
-  }
-}
-
-@media (max-width: 360px) {
-  h1 {
-    font-size: 1.7rem;
-  }
-
-  .quote {
-    font-size: 1rem;
-  }
-
-  .h1-container {
-    margin-top: -2.5em;
-    margin-bottom: 2em;
-  }
-
-  span {
-    font-size: 0.8rem;
-  }
-  
-  button {
-    padding: 0.25em 1em;
-    margin-top: -1em;
-    margin-bottom: 0em;
-    }
-
-  .e-mail {
-    font-size: 0.75rem;
-  }
-
-  .github {
-    width: 15px;
-  }
-
-  .mail {
-    width: 15px
-  }
-
-  footer {
-    margin-top: -1.5em;
-  }
-}
-
-@media (max-width: 315px) {
-  h1 {
-    font-size: 1.4rem;
-  }
-
-  .quote {
-    font-size: 1rem;
-  }
-
-  .h1-container {
-    margin-top: -2.5em;
-    margin-bottom: 1em;
-  }
-
-  span {
-    font-size: 0.8rem;
-  }
-  
-  button {
-    padding: 0.25em 1em;
-    margin-top: -1em;
-    margin-bottom: 0em;
-    }
-
-  .e-mail {
-    font-size: 0.75rem;
-  }
-
-  .github {
-    width: 15px;
-  }
-
-  .mail {
-    width: 15px
-  }
-
-  footer {
-    margin-top: -1.5em;
-  }
-}
-
-@media (max-width: 275px) {
-  h1 {
-    font-size: 1rem;
-  }
-
-  .quote {
-    font-size: 0.8rem;
-  }
-
   header {
-    margin-bottom: 0em;
-  }
-
-  .logo {
-    width: 100px;
-  }
-
-  .h1-container {
-    margin-top: 0em;
     margin-bottom: 1em;
   }
 
-  button {
-    margin-top: -0.8em;
-    padding: 0.15em 0.6em;
-  }
-
-  span {
-    font-size: 0.8rem;
-  }
-
-  footer {
-    margin-top: -2em;
-  }
-
-  .e-mail {
-    font-size: 0.5rem;
+  .github {
+    width: 15px;
   }
 
   .mail {
     width: 15px;
   }
 
-  .github {
-    width: 15px;
+  .e-mail {
+    font-size: 0.8rem;
   }
+
 }
