@@ -122,6 +122,10 @@ footer {
   width: 90%;
 }
 
+.author {
+  font-weight: bold;
+}
+
 .github {
   width: 35px;
 }
